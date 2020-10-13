@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should render items 1`] = `
+<div>
+  <a
+    href="#section1"
+  >
+     
+    <button
+      className="sc-bqGHjH gIhGAv"
+    >
+      <svg
+        className="sc-crzoUp hDghRy"
+      >
+        eslint-disable-next-line max-len
+        <path
+          d="M 7.415 11 l 3.295 -3.295 a 1 1 0 0 0 -1.417 -1.412 l -4.98 4.98 a 0.997 0.997 0 0 0 -0.025 1.429 l 5.005 5.005 a 1 1 0 1 0 1.414 -1.414 L 7.414 13 H 19 a 1 1 0 0 0 0 -2 H 7.415 Z"
+        />
+      </svg>
+    </button>
+     
+  </a>
+  <a
+    href="#section2"
+  >
+     
+    <button
+      className="sc-ksluoS hhnNjD"
+    >
+      <svg
+        className="sc-dIsAE bFBkRd"
+      >
+        <path
+          d="M 16.585 13 l -3.295 3.295 a 1 1 0 0 0 1.417 1.412 l 4.98 -4.98 a 0.997 0.997 0 0 0 0.025 -1.429 l -5.005 -5.005 a 1 1 0 0 0 -1.414 1.414 L 16.586 11 H 5 a 1 1 0 0 0 0 2 h 11.585 Z"
+        />
+      </svg>
+    </button>
+     
+  </a>
+  <ul
+    className="sc-bdnylx kLgSuC"
+  >
+    <span
+      className="sc-kEqYlL gwnNYC"
+      id="section1"
+    >
+      <section
+        className="sc-gtssRu dQtEHJ"
+      >
+        <li>
+          <img
+            className="sc-dlnjPT jLmVSv"
+          />
+          <div
+            className="sc-jrsJCI jsQOoP"
+          >
+            <div
+              className="sc-eCApGN kjSuoB"
+            >
+              <div
+                id="related-item-manufacturer"
+              >
+                 
+                Morar Group
+              </div>
+            </div>
+            <span
+              className="sc-jSFkmK fxNbUe"
+            >
+              <div
+                id="related-item-product-name"
+              >
+                 
+                Tasty Cotton Chips
+              </div>
+            </span>
+          </div>
+          <div>
+            <span
+              className="sc-fujyUd emXjDs"
+            />
+            <span
+              className="sc-pNWxx csLsBX"
+            >
+              (
+              496
+              )
+            </span>
+          </div>
+          <div
+            id="related-item-price"
+          >
+            <span
+              className="sc-hKFyIo JPyHC"
+            >
+              $
+              225.84
+               
+            </span>
+            <div
+              className="sc-gKAblj eFWMLi"
+            >
+              $
+              267
+              .99
+            </div>
+          </div>
+        </li>
+      </section>
+      <section
+        className="sc-gtssRu dQtEHJ"
+      >
+        <li>
+          <img
+            className="sc-dlnjPT hnDwtX"
+          />
+          <div
+            className="sc-jrsJCI jsQOoP"
+          >
+            <div
+              className="sc-eCApGN kjSuoB"
+            >
+              <div
+                id="related-item-manufacturer"
+              >
+                 
+                Gusikowski, Kohler and Pacocha
+              </div>
+            </div>
+            <span
+              className="sc-jSFkmK fxNbUe"
+            >
+              <div
+                id="related-item-product-name"
+              >
+                 
+                Intelligent Plastic Shoes
+              </div>
+            </span>
+          </div>
+          <div>
+            <span
+              className="sc-fujyUd EGWuD"
+            />
+            <span
+              className="sc-pNWxx csLsBX"
+            >
+              (
+              345
+              )
+            </span>
+          </div>
+          <div
+            id="related-item-price"
+          >
+            <span
+              className="sc-hKFyIo JPyHC"
+            >
+              $
+              785.84
+               
+            </span>
+            <div
+              className="sc-gKAblj eFWMLi"
+            >
+              $
+              925
+              .99
+            </div>
+          </div>
+        </li>
+      </section>
+      <section
+        className="sc-gtssRu dQtEHJ"
+      >
+        <li>
+          <img
+            className="sc-dlnjPT cQfnuL"
+          />
+          <div
+            className="sc-jrsJCI jsQOoP"
+          >
+            <div
+              className="sc-eCApGN kjSuoB"
+            >
+              <div
+                id="related-item-manufacturer"
+              >
+                 
+                Gleason, Pacocha and Hyatt
+              </div>
+            </div>
+            <span
+              className="sc-jSFkmK fxNbUe"
+            >
+              <div
+                id="related-item-product-name"
+              >
+                 
+                Fantastic Metal Towels
+              </div>
+            </span>
+          </div>
+          <div>
+            <span
+              className="sc-fujyUd kQMwmh"
+            />
+            <span
+              className="sc-pNWxx csLsBX"
+            >
+              (
+              0
+              )
+            </span>
+          </div>
+          <div
+            id="related-item-price"
+          >
+            <div
+              className="sc-iCoHVE jnVIJE"
+            >
+              $
+              324
+              .99
+            </div>
+          </div>
+        </li>
+      </section>
+    </span>
+    <span
+      className="sc-iqAbSa fVymTr"
+      id="section2"
+    />
+  </ul>
+</div>
+`;
