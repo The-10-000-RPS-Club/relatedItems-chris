@@ -13,13 +13,14 @@
 //   .catch((err) => console.log(err));
 
 // module.exports = db;
+const config = require('./config.json')
 const { Pool } = require('pg');
 const pool = new Pool({
-  host: 'localhost',
-  port: 5432,
-  database: 'sdc',
-  user: 'chris',
-  password: '!pwd123'
+  host: config.host,
+  port: config.port,
+  database: config.database,
+  user: config.user,
+  password: config.password
 })
 
 const getItems = (req, res) => {

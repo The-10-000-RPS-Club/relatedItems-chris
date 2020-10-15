@@ -106,3 +106,5 @@ dist
 ./public/bundle.js
 
 bundle.js
+config.json
+relatedItems.csv
