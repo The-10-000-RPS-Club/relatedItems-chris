@@ -43,7 +43,8 @@
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "yargs": "^16.1.0"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
