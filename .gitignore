@@ -108,3 +108,5 @@ dist
 bundle.js
 config.json
 relatedItems.csv
+items.csv
+generate.sh

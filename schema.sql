@@ -18,14 +18,14 @@ CREATE TABLE items (
 );
 
 CREATE TABLE relatedItems (
-  id INTEGER PRIMARY KEY,
+  id INTEGER PRIMARY KEY NOT NULL,
   product_id INTEGER NOT NULL REFERENCES items(product_id),
-  manufacturer: VARCHAR(30),
-  item_name: VARCHAR(30),
-  rating: FLOAT,
-  number_of_ratings: INTEGER,
-  price: FLOAT,
-  product_url: VARCHAR(30),
-  onSale: BOOLEAN,
-  onSalePrice: FLOAT
+  manufacturer VARCHAR(60),
+  item_name VARCHAR(30),
+  rating FLOAT,
+  number_of_ratings INTEGER,
+  price FLOAT,
+  product_url VARCHAR(100),
+  onSale BOOLEAN,
+  onSalePrice VARCHAR(30)
 );

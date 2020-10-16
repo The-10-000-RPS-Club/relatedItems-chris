@@ -3,7 +3,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const pgp = require('pg-promise');
 
 const app = express();
 
