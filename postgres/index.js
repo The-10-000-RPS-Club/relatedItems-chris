@@ -13,15 +13,16 @@
 //   .catch((err) => console.log(err));
 
 // module.exports = db;
-const config = require('./config.json')
 const { Pool } = require('pg');
+const config = require('./config.json');
+
 const pool = new Pool({
   host: config.host,
   port: config.port,
   database: config.database,
   user: config.user,
-  password: config.password
-})
+  password: config.password,
+});
 
 const getItems = (req, res) => {
   pool.query('SELECT * FROM item', (err, result) => {
@@ -29,7 +30,7 @@ const getItems = (req, res) => {
       console.log(err);
     }
     res.end(result);
-  })
-}
+  });
+};
 
-module.exports = { getItems }
+module.exports = { getItems };
