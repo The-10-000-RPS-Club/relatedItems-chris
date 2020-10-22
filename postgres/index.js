@@ -24,13 +24,4 @@ const pool = new Pool({
   password: config.password,
 });
 
-const getItems = (req, res) => {
-  pool.query('SELECT * FROM item', (err, result) => {
-    if (err) {
-      console.log(err);
-    }
-    res.end(result);
-  });
-};
-
-module.exports = { getItems };
+module.exports = pool;

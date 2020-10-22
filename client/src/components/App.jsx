@@ -1,22 +1,16 @@
-/* eslint-disable import/extensions */
-/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
 import axios from 'axios';
-/* eslint-disable no-unused-vars */
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components';
-import List from './List.jsx';
+import List from './List';
 
-const Wrapper = styled.div`
-    font-size: 16px;
-`;
 const BorderBox = styled.div`
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
-  
+
 `;
 const Header = styled.h1`
   font-family: Graphik,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -26,7 +20,7 @@ const Header = styled.h1`
   font-size: 1.3rem;
   line-height: 2.6rem;
   margin-left: 17%;
-  
+
 `;
 
 class App extends React.Component {
@@ -39,15 +33,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getProductList();
+    const id = window.location.href.match(/id\s*=\s*(.*)/);
+    id ? this.getProductList(id[1]) : this.getProductList(1);
   }
 
-  getProductList() {
-    axios({
-      method: 'get',
-      url: '/api/products/:id/relatedItems',
-    })
-      .then((data) => { this.setState({ productList: data.data }); })
+  getProductList(product_id) {
+    axios(`/api/relatedItems/${product_id}`)
+      .then(({ data }) => { this.setState({ productList: data }); })
       .catch((err) => err);
   }
 

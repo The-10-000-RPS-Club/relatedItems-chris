@@ -10,8 +10,7 @@
   },
   "scripts": {
     "watch": "webpack -d --watch",
-    "start": "node server/server.js",
-    "seed": "node database/seeder.js",
+    "start": "nodemon server/index.js",
     "test": "jest --coverage",
     "build": "webpack"
   },
@@ -39,7 +38,6 @@
     "faker": "^5.1.0",
     "mongoose": "^5.10.8",
     "pg": "^8.4.1",
-    "pg-promise": "^10.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0",
