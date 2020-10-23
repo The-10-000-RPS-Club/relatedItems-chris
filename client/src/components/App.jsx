@@ -33,8 +33,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const id = window.location.href.match(/id\s*=\s*(.*)/);
-    id ? this.getProductList(id[1]) : this.getProductList(1);
+    let id = window.location.pathname.split('/');
+    id = id[id.length - 2];
+    id ? this.getProductList(id) : this.getProductList(1);
   }
 
   getProductList(product_id) {
