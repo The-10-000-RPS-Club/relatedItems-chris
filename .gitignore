@@ -113,4 +113,8 @@ generate.sh
 item_tags.csv
 tags.csv
 newrelic.js
-
+sdc2.sql
+dcoker-compose.debug.yml
+docker-compose.yml
+Dockerfile
+schema.sql
