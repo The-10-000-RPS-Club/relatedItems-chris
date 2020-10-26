@@ -12,6 +12,7 @@ app.use(morgan('dev'));
 // app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/relatedItems/:product_id', express.static(`${__dirname}/../public`));
+app.use(express.static(`${__dirname}/../public`));
 
 app.get('/api/relatedItems/:product_id', getItems);
 

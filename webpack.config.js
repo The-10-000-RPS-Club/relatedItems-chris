@@ -49,7 +49,7 @@ module.exports = {
   },
   mode: 'none',
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
   optimization: {
     minimize: true,
