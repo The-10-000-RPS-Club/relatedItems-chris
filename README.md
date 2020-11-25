@@ -1,39 +1,44 @@
-# Project Name
+# GoOutdoor
 
-> This is a component from my REI replication project. This specific component is the related Items section
+Welcome to GoOutdoor! GoOutdoor is an open-source e-commerce platform using service oriented architecture(SOA), and this projest is specifically for the related items module in an application.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - [Display](https://github.com/The-10-000-RPS-Club/display-service.git)
+  - [Q&A](https://github.com/The-10-000-RPS-Club/service-jacki.git)
+  - [Reviews](https://github.com/The-10-000-RPS-Club/reviews-joe.git)
+
 
 ## Table of Contents
 
-1. [Usage](#Usage)
 1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions
+1. [Getting Started](#getting-started)
 
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
-- etc
 
-## Development
+## Getting Started
+Clone the repository.
+`$ git clone https://github.com/souperhost-3000/service-chris.git`
 
-### Installing Dependencies
+Install dependencies, build webpack bundle, and start the application
 
-From within the root directory:
+`$ npm install`
+> Install dependencies
 
-```sh
-npm install -g webpack
-npm install
-```
+`$ npm run seed`
+> Generate over 1,000,000 mock data in csv file
+
+`$ npm run build`
+> Run webpack to created bundle.js
+
+`$ npm start`
+> Start node.js server
+
+Open a browser and navigate to localhost: 3004
+
+
 
