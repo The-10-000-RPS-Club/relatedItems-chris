@@ -8,7 +8,6 @@ Welcome to GoOutdoor! GoOutdoor is an open-source e-commerce platform using serv
   - [GoOutdoor Q&A Module](https://github.com/The-10-000-RPS-Club/service-jacki.git)
   - [GoOutdoor Reviews Module](https://github.com/The-10-000-RPS-Club/reviews-joe.git)
 
-
 ## Table of Contents
 
 1. [Requirements](#requirements)
