@@ -16,7 +16,9 @@ Welcome to GoOutdoor! GoOutdoor is an open-source e-commerce platform using serv
 
 ## Database
 I needed to decide what database to use for my module. So, I first chose widely used SQL database and NoSQL database, PostgreSQL and Cassandra DB. Then, I benchmarked two databases by obtaining query time data in three sections of my data set, the first 10%, the middle 10%, and the last 10% of my data set. In each section, I performed 4 queries spread out across the section. 
-![Database Benchmark](/Users/chriskim/hr/relatedItems-chris/Database_Benchmark.png)
+
+![Database Benchmark](Database_Benchmark.png)
+
 As a result, the query time of PostgreSQL was faster than the query time of Cassandra for cached and non-cached data. Also, because of Postgres’s strong developer community, PostgreSQL was a better fit for my specific use case.
 
 ## Server Optimization and Scaling the Architecture
