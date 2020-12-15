@@ -24,5 +24,7 @@ As can be seen on the Table 1 above, the query time of PostgreSQL was faster tha
 
 ## Server Optimization and Scaling the Architecture
 
+![Server Architecture](https://github.com/The-10-000-RPS-Club/relatedItems-chris/blob/master/Server_Architecture.png)
+
 ## Result
 After benchmarking databases and optimizing the application’s architecture, I could get a 300% increase in throughput. This means more concurrent users can interact with the application without being angry because of wait time, and more happy users will result in an increase in a company’s revenue. Overall, I was happy that I could overcome the challenge and meet the goal.
